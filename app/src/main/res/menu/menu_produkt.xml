@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mobileapp.ProduktActivity">
+
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_produkt"
+        android:orderInCategory="100"
+        android:title="Products"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_order"
+        android:orderInCategory="100"
+        android:title="Cart"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_my_account"
+        android:orderInCategory="100"
+        android:title="My account"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_login"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>
